@@ -53,9 +53,12 @@ This hands-on investigation was designed to strengthen understanding of real-wor
 
 
 #### HTTP.log Analysis
-- PowerShell scripts downloaded  
-- TeamViewer-related files transferred  
-- Executable malware files observed  am_delta_patch_1.421.1491.0_c8e6042b36d8f357a8e298b6f9f2fcde561c2e02.exe
+- PowerShell scripts downloaded :
+  - http://5.252.153.241/api/file/get-file/29842.ps1 
+- TeamViewer-related files transferred
+  - http://5.252.153.241/TeamViewer 
+- Executable malware files observed
+   - am_delta_patch_1.421.1491.0_c8e6042b36d8f357a8e298b6f9f2fcde561c2e02.exe
 - Repeated suspicious HTTP requests (404 responses)
 <img width="945" height="566" alt="image" src="https://github.com/user-attachments/assets/fe8163f9-5b22-4021-b2c6-fa34bfa4a944" />
  
@@ -70,7 +73,7 @@ This hands-on investigation was designed to strengthen understanding of real-wor
 
 ---
 
-### Phase 3: Forensics (NetworkMiner)
+### Phase 3: Forensics analysis (NetworkMiner)
 - Compromised account identified:
   - username shutchenson
   - hostname desktop-l8c5gsj
@@ -93,7 +96,7 @@ This hands-on investigation was designed to strengthen understanding of real-wor
 - Large outbound traffic detected<br>
   •	Approximatively 9.6 Mega bytes were transferred from 45.125.66.32 to 10.1.17.215<br>
   •	Approximatively 6.6 Mega bytes were transferred from 5.252.153.241 to 10.1.17.215<br>
-<img width="945" height="300" alt="image" src="https://github.com/user-attachments/assets/62bfaefc-c8b6-4cd0-ad81-c04532ee4083" />
+<img width="945" height="300" alt="image" src="https://github.com/user-attachments/assets/62bfaefc-c8b6-4cd0-ad81-c04532ee4083" /><br>
 - Suspicious communication with external infrastructure <br> 
 - Evidence of potential data exfiltration  
 <img width="945" height="565" alt="image" src="https://github.com/user-attachments/assets/60859509-b2b1-4132-9846-6cb493067933" />
