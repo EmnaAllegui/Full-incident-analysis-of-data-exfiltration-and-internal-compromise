@@ -121,6 +121,14 @@ This hands-on investigation was designed to strengthen understanding of real-wor
 - Credentials harvesting of user **shutchenson**  
 
 ---
+## Victim Details
+
+• IP address: 10.1.17.215  
+• MAC address: 00:d0:b7:26:4a:74  
+• Hostname: desktop-l8c5gsj  
+• Account: Windows user shutchenson  
+• Domain: bluemoontuesday.com
+
 
 ## Indicators of Compromise (IOCs)
 
