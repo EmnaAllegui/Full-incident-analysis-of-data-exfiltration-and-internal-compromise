@@ -55,7 +55,7 @@ This hands-on investigation was designed to strengthen understanding of real-wor
 #### HTTP.log Analysis
 - PowerShell scripts downloaded :
   - http://5.252.153.241/api/file/get-file/29842.ps1 
-- TeamViewer-related files transferred
+- TeamViewer executable download:
   - http://5.252.153.241/TeamViewer 
 - Executable malware files observed
    - am_delta_patch_1.421.1491.0_c8e6042b36d8f357a8e298b6f9f2fcde561c2e02.exe
