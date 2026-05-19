@@ -19,6 +19,18 @@ This hands-on investigation was designed to strengthen understanding of real-wor
 - Development of analytical and threat hunting skills  
 
 ---
+## Tasks
+
+- Analyze SPF records and count DNS lookups  
+- Identify SPF misconfigurations and outdated mechanisms  
+- Validate DKIM selectors and public keys  
+- Analyze DMARC policies and reporting configuration  
+- Evaluate potential spoofing risks across domains  
+- Correlate SPF, DKIM, and DMARC findings  
+- Assess overall email security posture  
+- Provide risk analysis and security recommendations
+  
+---
 
 ## Tools Used
 
