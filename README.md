@@ -21,14 +21,11 @@ This hands-on investigation was designed to strengthen understanding of real-wor
 ---
 ## Tasks
 
-- Analyze SPF records and count DNS lookups  
-- Identify SPF misconfigurations and outdated mechanisms  
-- Validate DKIM selectors and public keys  
-- Analyze DMARC policies and reporting configuration  
-- Evaluate potential spoofing risks across domains  
-- Correlate SPF, DKIM, and DMARC findings  
-- Assess overall email security posture  
-- Provide risk analysis and security recommendations
+- Detected malicious activity using Suricata alerts
+- Performed behavioral analysis with Zeek logs (`conn`, `http`, `dns`)
+- Conducted network forensics using NetworkMiner to recover artifacts and payloads
+- Analyzed NetFlow data to identify top talkers and large transfers
+- Used Wireshark for packet inspection and exfiltration validation
   
 ---
 
